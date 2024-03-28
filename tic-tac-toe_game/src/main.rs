@@ -11,6 +11,7 @@ struct Board {
     cells: [[Cell; 3]; 3],
 }
 
+
 impl Board {
     fn new() -> Self {
         Board {
